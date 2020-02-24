@@ -1,0 +1,26 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations/$entity",
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "roleScopeTagIds":  [
+
+                        ],
+    "supportsScopeTags":  true,
+    "description":  "This will remove the creation of Edge shortcut on desktop",
+    "displayName":  "DW-W10-TST-Edge Customizations",
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "ADMX Ingest",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/ConfigOperations/ADMXInstall/Windows/Policy/WindowsCustomizationsAdmx",
+                            "value":  "\u003cpolicyDefinitions revision=\"1.0\" schemaVersion=\"1.0\"\u003e\n  \u003cpolicyNamespaces\u003e\n    \u003ctarget prefix=\"windowscustom\" namespace=\"Windowscustom.deploywindows\" /\u003e\n    \u003cusing prefix=\"windows\" namespace=\"Microsoft.Policies.Windows\" /\u003e\n  \u003c/policyNamespaces\u003e\n  \u003cresources minRequiredRevision=\"1.0\" /\u003e\n  \u003ccategories\u003e\n    \u003ccategory name=\"C_Edge\" displayName=\"$(string.C_Edge_category)\"/\u003e\n  \u003c/categories\u003e\n  \u003cpolicies\u003e\n    \u003cpolicy name=\"DisableEdgeDesktopShortcutCreation\" class=\"Machine\" displayName=\"$(string.L_DisableEdgeDesktopShortcutCreation)\" explainText=\"$(string.L_DisableEdgeDesktopShortcutCreation_help)\" key=\"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\" valueName=\"DisableEdgeDesktopShortcutCreation\"\u003e\n      \u003cparentCategory ref=\"C_Edge\" /\u003e\n      \u003csupportedOn ref=\"windows:SUPPORTED_Windows10\" /\u003e\n      \u003cenabledValue\u003e\n        \u003cdecimal value=\"1\" /\u003e\n      \u003c/enabledValue\u003e\n      \u003cdisabledValue\u003e\n        \u003cdecimal value=\"0\" /\u003e\n      \u003c/disabledValue\u003e\n    \u003c/policy\u003e\n  \u003c/policies\u003e\n\u003c/policyDefinitions\u003e"
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "DisableEdgeDesktopShortcutCreation",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Windows~Policy~C_Edge/DisableEdgeDesktopShortcutCreation",
+                            "value":  "\u003cenabled/\u003e"
+                        }
+                    ]
+}
