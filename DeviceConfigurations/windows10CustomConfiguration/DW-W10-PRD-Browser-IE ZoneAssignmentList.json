@@ -12,9 +12,9 @@
   "omaSettings": [
     {
       "@odata.type": "#microsoft.graph.omaSettingString",
-      "displayName": "ZoneAssignmentList",
-      "description": null,
-      "omaUri": "dsfa",
+      "displayName": "SiteToZoneAssignmentList",
+      "description": "Reference https://deploywindows.com/2019/05/13/complete-guide-to-trusted-sites-with-intune/",
+      "omaUri": "./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowSiteToZoneAssignmentList",
       "value": "<Enabled/>\n<Data id=\"IZ_ZonemapPrompt\" value=\"https://*.msappproxy.net/&#xF000;1&#xF000;https://autologon.microsoftazuread-sso.com&#xF000;1\"/>"
     }
   ]
