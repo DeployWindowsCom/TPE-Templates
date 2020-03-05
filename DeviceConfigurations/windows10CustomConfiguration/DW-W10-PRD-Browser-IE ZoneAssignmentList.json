@@ -1,0 +1,21 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "supportsScopeTags": true,
+  "deviceManagementApplicabilityRuleOsEdition": null,
+  "deviceManagementApplicabilityRuleOsVersion": null,
+  "deviceManagementApplicabilityRuleDeviceMode": null,
+  "description": "",
+  "displayName": "DW-W10-PRD-Browser-IE ZoneAssignmentList",
+  "omaSettings": [
+    {
+      "@odata.type": "#microsoft.graph.omaSettingString",
+      "displayName": "ZoneAssignmentList",
+      "description": null,
+      "omaUri": "dsfa",
+      "value": "<Enabled/>\n<Data id=\"IZ_ZonemapPrompt\" value=\"https://*.msappproxy.net/&#xF000;1&#xF000;https://autologon.microsoftazuread-sso.com&#xF000;1\"/>"
+    }
+  ]
+}
