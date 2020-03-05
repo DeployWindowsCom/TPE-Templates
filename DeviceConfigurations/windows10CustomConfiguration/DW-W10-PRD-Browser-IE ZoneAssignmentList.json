@@ -4,7 +4,17 @@
     "0"
   ],
   "supportsScopeTags": true,
-  "deviceManagementApplicabilityRuleOsEdition": null,
+  "deviceManagementApplicabilityRuleOsEdition": {
+    "osEditionTypes": [
+      "windows10HolographicEnterprise",
+      "windows10IoTCore",
+      "windows10IoTCoreCommercial",
+      "windows10MobileEnterprise",
+      "windows10Mobile"
+    ],
+    "name": null,
+    "ruleType": "exclude"
+  },
   "deviceManagementApplicabilityRuleOsVersion": null,
   "deviceManagementApplicabilityRuleDeviceMode": null,
   "description": "",
