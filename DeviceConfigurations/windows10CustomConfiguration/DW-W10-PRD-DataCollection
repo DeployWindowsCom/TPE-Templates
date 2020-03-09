@@ -1,0 +1,38 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "supportsScopeTags": true,
+  "deviceManagementApplicabilityRuleOsEdition": null,
+  "deviceManagementApplicabilityRuleOsVersion": null,
+  "deviceManagementApplicabilityRuleDeviceMode": null,
+  "description": "Privacy and data collection settings",
+  "displayName": "DW-W10-PRD-DataCollection",
+  "omaSettings": [
+    {
+      "@odata.type": "#microsoft.graph.omaSettingInteger",
+      "displayName": "ConfigureTelemetryOptInChangeNotification",
+      "description": null,
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/System/ConfigureTelemetryOptInChangeNotification",
+      "value": 1,
+      "isReadOnly": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.omaSettingInteger",
+      "displayName": "LimitEnhancedDiagnosticDataWindowsAnalytics",
+      "description": null,
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/System/LimitEnhancedDiagnosticDataWindowsAnalytics",
+      "value": 1,
+      "isReadOnly": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.omaSettingInteger",
+      "displayName": "AllowDeviceNameInDiagnosticData",
+      "description": null,
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/System/AllowDeviceNameInDiagnosticData",
+      "value": 1,
+      "isReadOnly": false
+    }
+  ]
+}
