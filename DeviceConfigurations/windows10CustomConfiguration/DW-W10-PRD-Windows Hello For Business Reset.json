@@ -1,0 +1,27 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "supportsScopeTags": true,
+  "deviceManagementApplicabilityRuleOsEdition": null,
+  "deviceManagementApplicabilityRuleDeviceMode": null,
+  "createdDateTime": "2020-03-07T14:02:13.9514611Z",
+  "description": "Enable Hello PIN reset on device",
+  "displayName": "DW-W10-PRD-Windows Hello For Business Reset",
+  "deviceManagementApplicabilityRuleOsVersion": {
+    "minOSVersion": "10.0.16299",
+    "maxOSVersion": "11.0",
+    "name": null,
+    "ruleType": "include"
+  },
+  "omaSettings": [
+    {
+      "@odata.type": "#microsoft.graph.omaSettingBoolean",
+      "displayName": "Enable PIN Reset on device. Get your Azure AD Guid from Azure AD properties",
+      "description": "https://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-feature-pin-reset",
+      "omaUri": "./Device/Vendor/MSFT/PassportForWork/{YOUR AZURE AD GUID}/Policies/EnablePinRecovery",
+      "value": true
+    }
+  ]
+}
