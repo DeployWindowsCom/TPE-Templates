@@ -1,8 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
-  "roleScopeTagIds": [
-    "0"
-  ],
+  "roleScopeTagIds": [],
   "supportsScopeTags": true,
   "deviceManagementApplicabilityRuleOsEdition": {
     "osEditionTypes": [
