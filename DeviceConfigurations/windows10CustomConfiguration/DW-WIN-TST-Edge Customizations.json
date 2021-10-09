@@ -6,7 +6,7 @@
                         ],
     "supportsScopeTags":  true,
     "description":  "This will remove the creation of Edge shortcut on desktop. Reference: https://deploywindows.com/2019/01/03/prevent-edge-desktop-shortcut-csp-style/",
-    "displayName":  "DW-W10-TST-Edge Customizations",
+    "displayName":  "DW-WIN-TST-Edge Customizations",
     "omaSettings":  [
                         {
                             "@odata.type":  "#microsoft.graph.omaSettingString",

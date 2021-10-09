@@ -16,7 +16,7 @@
   "deviceManagementApplicabilityRuleOsVersion": null,
   "deviceManagementApplicabilityRuleDeviceMode": null,
   "description": "",
-  "displayName": "DW-W10-PRD-Browser-IE ZoneAssignmentList",
+  "displayName": "DW-WIN-PRD-Browser-IE ZoneAssignmentList",
   "omaSettings": [
     {
       "@odata.type": "#microsoft.graph.omaSettingString",

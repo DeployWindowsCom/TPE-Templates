@@ -8,7 +8,7 @@
   "deviceManagementApplicabilityRuleDeviceMode": null,
   "createdDateTime": "2020-03-07T14:02:13.9514611Z",
   "description": "Enable Hello PIN reset on device",
-  "displayName": "DW-W10-PRD-Windows Hello For Business Reset",
+  "displayName": "DW-WIN-PRD-Windows Hello For Business Reset",
   "deviceManagementApplicabilityRuleOsVersion": {
     "minOSVersion": "10.0.16299",
     "maxOSVersion": "11.0",
